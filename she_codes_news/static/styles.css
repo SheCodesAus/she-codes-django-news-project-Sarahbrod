@@ -52,3 +52,15 @@ a,
 p {
     font-family: helvetica;
 }
+
+input[type="submit" i] {
+    justify-content: center;
+    border-radius: 6px;
+    color: white;
+    background-color: rgb(61, 87, 255);
+    border-width: thin;
+    height: 30px;
+    width: 80px;
+    margin: auto;
+    font-size: 1rem;
+}
