@@ -23,7 +23,7 @@ h1 {
 }
 
 h2 {
-   font-family: 'Montserrat Subrayada', sans-serif; 
+    font-family: 'Montserrat Subrayada', sans-serif;
 }
 
 h3 {
@@ -49,6 +49,7 @@ a {
     color: #000;
 }
 
-a, p {
+a,
+p {
     font-family: monospace;
 }

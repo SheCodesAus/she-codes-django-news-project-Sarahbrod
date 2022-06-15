@@ -19,6 +19,22 @@ class IndexView(generic.ListView):
         return context
 
 
+class AuthorsListView(generic.ListView):
+    form_class = StoryForm
+    context_object_name = 'author_list'
+    template_name = 'news/author.html'
+    paginate_by = 50
+
+    def get_context_data(self, **kwargs):
+        context = super(AuthorsListView, self).get_context_data(**kwargs)
+        context['author'] = NewsStory.objects.all()
+        return context
+
+    def get_queryset(self):
+        author_id = self.kwargs['pk']
+        return NewsStory.objects.filter(author=author_id,)
+
+
 class StoryView (generic.DetailView):
     model = NewsStory
     template_name = 'news/story.html'
