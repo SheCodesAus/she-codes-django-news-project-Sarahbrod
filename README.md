@@ -4,7 +4,7 @@ Welcome to my completed Django project.
 
 ## Heroku Link
 
-You can visit the site [here](https://pip.pypa.io/en/stable/) and read about all the latest news.
+You can visit the site [here]([https://pip.pypa.io/en/stable/](https://blooming-hollows-48799.herokuapp.com/) and read about all the latest news.
 
 
 ## Features
