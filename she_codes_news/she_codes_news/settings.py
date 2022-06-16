@@ -38,7 +38,8 @@ CORS_ALLOW_ALL_ORIGINS = True
 # Application definition
 
 INSTALLED_APPS = [
-    'news.apps.NewsConfig',
+    # 'news.apps.NewsConfig',
+    'projects.apps.ProjectsConfig',
     'corsheaders',
     'django.contrib.admin',
     'django.contrib.auth',
