@@ -1,35 +1,34 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 
 body {
-    background-color: rgb(240, 239, 239);
+    background-color: rgb(246, 246, 246);
 }
 
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid rgb(42, 42, 42);
 }
 
-img {
-    filter: grayscale(100%);
-}
 
 h1 {
-    font-family: 'Montserrat Subrayada', sans-serif;
+    font-family: 'Cormorant', serif;
     text-decoration: none;
     font-size: 4rem;
     margin: 0;
 }
 
 h2 {
-   font-family: 'Montserrat Subrayada', sans-serif; 
+    font-family: 'Cormorant', serif;
 }
 
 h3 {
     font-size: 2rem;
     margin: 0;
 }
+
 
 #header-text {
     flex-basis: 80%;
@@ -49,6 +48,19 @@ a {
     color: #000;
 }
 
-a, p {
-    font-family: monospace;
+a,
+p {
+    font-family: helvetica;
+}
+
+input[type="submit" i] {
+    justify-content: center;
+    border-radius: 6px;
+    color: white;
+    background-color: rgb(61, 87, 255);
+    border-width: thin;
+    height: 30px;
+    width: 80px;
+    margin: auto;
+    font-size: 1rem;
 }
